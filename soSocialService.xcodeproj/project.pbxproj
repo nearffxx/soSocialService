@@ -395,7 +395,6 @@
 				GCC_PREFIX_HEADER = "soSocialService/soSocialService-Prefix.pch";
 				INFOPLIST_FILE = "soSocialService/soSocialService-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_CODE_SIGN_FLAGS = "-gta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -411,7 +410,6 @@
 				GCC_PREFIX_HEADER = "soSocialService/soSocialService-Prefix.pch";
 				INFOPLIST_FILE = "soSocialService/soSocialService-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_CODE_SIGN_FLAGS = "-gta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -476,7 +474,6 @@
 				22442F5919420E1200F7377C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		22442F5A19420E1200F7377C /* Build configuration list for PBXNativeTarget "soSocialServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -485,7 +482,6 @@
 				22442F5C19420E1200F7377C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
