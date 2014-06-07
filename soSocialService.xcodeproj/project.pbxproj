@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223E80C71943541A00599B9D /* GTLQuerySmuapi.m in Sources */ = {isa = PBXBuildFile; fileRef = 223E80B61943541A00599B9D /* GTLQuerySmuapi.m */; };
+		223E80C81943541A00599B9D /* GTLServiceSmuapi.m in Sources */ = {isa = PBXBuildFile; fileRef = 223E80B81943541A00599B9D /* GTLServiceSmuapi.m */; };
+		223E80CA1943541A00599B9D /* GTLSmuapiConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 223E80BC1943541A00599B9D /* GTLSmuapiConstants.m */; };
+		223E80CB1943541A00599B9D /* GTLSmuapiSocialCommento.m in Sources */ = {isa = PBXBuildFile; fileRef = 223E80BE1943541A00599B9D /* GTLSmuapiSocialCommento.m */; };
+		223E80CC1943541A00599B9D /* GTLSmuapiSocialMessaggio.m in Sources */ = {isa = PBXBuildFile; fileRef = 223E80C01943541A00599B9D /* GTLSmuapiSocialMessaggio.m */; };
+		223E80CD1943541A00599B9D /* GTLSmuapiSocialMessaggioCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 223E80C21943541A00599B9D /* GTLSmuapiSocialMessaggioCollection.m */; };
+		223E80CE1943541A00599B9D /* GTLSmuapiUtente.m in Sources */ = {isa = PBXBuildFile; fileRef = 223E80C41943541A00599B9D /* GTLSmuapiUtente.m */; };
+		223E80CF1943541A00599B9D /* GTLSmuapiUtenteCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 223E80C61943541A00599B9D /* GTLSmuapiUtenteCollection.m */; };
 		22442F2619420E1100F7377C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22442F2519420E1100F7377C /* Foundation.framework */; };
 		22442F2819420E1100F7377C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22442F2719420E1100F7377C /* CoreGraphics.framework */; };
 		22442F2A19420E1100F7377C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22442F2919420E1100F7377C /* UIKit.framework */; };
@@ -62,6 +70,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		223E80B51943541A00599B9D /* GTLQuerySmuapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQuerySmuapi.h; sourceTree = "<group>"; };
+		223E80B61943541A00599B9D /* GTLQuerySmuapi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQuerySmuapi.m; sourceTree = "<group>"; };
+		223E80B71943541A00599B9D /* GTLServiceSmuapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceSmuapi.h; sourceTree = "<group>"; };
+		223E80B81943541A00599B9D /* GTLServiceSmuapi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceSmuapi.m; sourceTree = "<group>"; };
+		223E80BA1943541A00599B9D /* GTLSmuapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSmuapi.h; sourceTree = "<group>"; };
+		223E80BB1943541A00599B9D /* GTLSmuapiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSmuapiConstants.h; sourceTree = "<group>"; };
+		223E80BC1943541A00599B9D /* GTLSmuapiConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSmuapiConstants.m; sourceTree = "<group>"; };
+		223E80BD1943541A00599B9D /* GTLSmuapiSocialCommento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSmuapiSocialCommento.h; sourceTree = "<group>"; };
+		223E80BE1943541A00599B9D /* GTLSmuapiSocialCommento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSmuapiSocialCommento.m; sourceTree = "<group>"; };
+		223E80BF1943541A00599B9D /* GTLSmuapiSocialMessaggio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSmuapiSocialMessaggio.h; sourceTree = "<group>"; };
+		223E80C01943541A00599B9D /* GTLSmuapiSocialMessaggio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSmuapiSocialMessaggio.m; sourceTree = "<group>"; };
+		223E80C11943541A00599B9D /* GTLSmuapiSocialMessaggioCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSmuapiSocialMessaggioCollection.h; sourceTree = "<group>"; };
+		223E80C21943541A00599B9D /* GTLSmuapiSocialMessaggioCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSmuapiSocialMessaggioCollection.m; sourceTree = "<group>"; };
+		223E80C31943541A00599B9D /* GTLSmuapiUtente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSmuapiUtente.h; sourceTree = "<group>"; };
+		223E80C41943541A00599B9D /* GTLSmuapiUtente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSmuapiUtente.m; sourceTree = "<group>"; };
+		223E80C51943541A00599B9D /* GTLSmuapiUtenteCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSmuapiUtenteCollection.h; sourceTree = "<group>"; };
+		223E80C61943541A00599B9D /* GTLSmuapiUtenteCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSmuapiUtenteCollection.m; sourceTree = "<group>"; };
 		22442F2219420E1100F7377C /* soSocialService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soSocialService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22442F2519420E1100F7377C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22442F2719420E1100F7377C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -302,6 +327,23 @@
 		2263038619434F6600C4B2DE /* API */ = {
 			isa = PBXGroup;
 			children = (
+				223E80B51943541A00599B9D /* GTLQuerySmuapi.h */,
+				223E80B61943541A00599B9D /* GTLQuerySmuapi.m */,
+				223E80B71943541A00599B9D /* GTLServiceSmuapi.h */,
+				223E80B81943541A00599B9D /* GTLServiceSmuapi.m */,
+				223E80BA1943541A00599B9D /* GTLSmuapi.h */,
+				223E80BB1943541A00599B9D /* GTLSmuapiConstants.h */,
+				223E80BC1943541A00599B9D /* GTLSmuapiConstants.m */,
+				223E80BD1943541A00599B9D /* GTLSmuapiSocialCommento.h */,
+				223E80BE1943541A00599B9D /* GTLSmuapiSocialCommento.m */,
+				223E80BF1943541A00599B9D /* GTLSmuapiSocialMessaggio.h */,
+				223E80C01943541A00599B9D /* GTLSmuapiSocialMessaggio.m */,
+				223E80C11943541A00599B9D /* GTLSmuapiSocialMessaggioCollection.h */,
+				223E80C21943541A00599B9D /* GTLSmuapiSocialMessaggioCollection.m */,
+				223E80C31943541A00599B9D /* GTLSmuapiUtente.h */,
+				223E80C41943541A00599B9D /* GTLSmuapiUtente.m */,
+				223E80C51943541A00599B9D /* GTLSmuapiUtenteCollection.h */,
+				223E80C61943541A00599B9D /* GTLSmuapiUtenteCollection.m */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -408,26 +450,34 @@
 				2263035219434E9F00C4B2DE /* GTLUploadParameters.m in Sources */,
 				2263037719434EB500C4B2DE /* GTMHTTPUploadFetcher.m in Sources */,
 				2263035519434E9F00C4B2DE /* GTLRuntimeCommon.m in Sources */,
+				223E80C81943541A00599B9D /* GTLServiceSmuapi.m in Sources */,
 				2263036219434EAB00C4B2DE /* GTLBase64.m in Sources */,
+				223E80CF1943541A00599B9D /* GTLSmuapiUtenteCollection.m in Sources */,
 				2263034D19434E9F00C4B2DE /* GTLObject.m in Sources */,
 				2263035419434E9F00C4B2DE /* GTLErrorObject.m in Sources */,
+				223E80CB1943541A00599B9D /* GTLSmuapiSocialCommento.m in Sources */,
 				2263035019434E9F00C4B2DE /* GTLService.m in Sources */,
+				223E80CE1943541A00599B9D /* GTLSmuapiUtente.m in Sources */,
 				2263034F19434E9F00C4B2DE /* GTLBatchQuery.m in Sources */,
 				2263037819434EB500C4B2DE /* GTMGatherInputStream.m in Sources */,
 				2263035319434E9F00C4B2DE /* GTLDateTime.m in Sources */,
 				2263035F19434EAB00C4B2DE /* GTLFramework.m in Sources */,
+				223E80C71943541A00599B9D /* GTLQuerySmuapi.m in Sources */,
+				223E80CA1943541A00599B9D /* GTLSmuapiConstants.m in Sources */,
 				2263036119434EAB00C4B2DE /* GTLUtilities.m in Sources */,
 				2263036019434EAB00C4B2DE /* GTLJSONParser.m in Sources */,
 				2263035119434E9F00C4B2DE /* GTLBatchResult.m in Sources */,
 				2263037A19434EB500C4B2DE /* GTMReadMonitorInputStream.m in Sources */,
 				2263038419434ED800C4B2DE /* GTMOAuth2ViewControllerTouch.m in Sources */,
 				2263038019434ECB00C4B2DE /* GTMOAuth2SignIn.m in Sources */,
+				223E80CD1943541A00599B9D /* GTLSmuapiSocialMessaggioCollection.m in Sources */,
 				2263037619434EB500C4B2DE /* GTMHTTPFetchHistory.m in Sources */,
 				2263037419434EB500C4B2DE /* GTMHTTPFetcher.m in Sources */,
 				2263034E19434E9F00C4B2DE /* GTLQuery.m in Sources */,
 				2263037919434EB500C4B2DE /* GTMMIMEDocument.m in Sources */,
 				22442F3F19420E1100F7377C /* ViewController.m in Sources */,
 				22442F3619420E1100F7377C /* AppDelegate.m in Sources */,
+				223E80CC1943541A00599B9D /* GTLSmuapiSocialMessaggio.m in Sources */,
 				22442F3219420E1100F7377C /* main.m in Sources */,
 				2263037F19434ECB00C4B2DE /* GTMOAuth2Authentication.m in Sources */,
 				2263037519434EB500C4B2DE /* GTMHTTPFetcherLogging.m in Sources */,
