@@ -84,11 +84,6 @@
     return TRUE;
 }
 
-- (IBAction)SendMsg:(id)sender
-{
-    [self.tTokenFB setText:[self.tTokenTW1 text]];
-}
-
 - (void)viewDidLoad
 {
     self.tTo.delegate = self;
@@ -117,13 +112,22 @@
     return service;
 }
 
-- (void)query1
+- (IBAction)SendMsg:(id)sender
 {
     GTLServiceSmuapi *service = [self smuService];
-    GTLQuerySmuapi *query = [GTLQuerySmuapi queryForGetAllFriends];
-    [service executeQuery:query completionHandler:^(GTLServiceTicket *ticket, id object, NSError *error) {
-        NSArray *items = [object items];
-    }];
-}
+    GTLQuerySmuapi *query = [GTLQuerySmuapi queryForPostStatusWithMessage:self.tMsg.text to:self.tTo.text];
+    query.tokenFb = self.tTokenFB.text;
+    query.tokenTw1 = self.tTokenTW1.text;
+    query.tokenTw2 = self.tTokenTW2.text;
+    [service executeQuery:query completionHandler:^(GTLServiceTicket *ticket, id object, NSError *error) {}];
+     UIAlertView *alert = [[UIAlertView alloc]initWithTitle: @"Message Status"
+                  message: @"Message Sent"
+                  delegate: self
+                  cancelButtonTitle:@"Cancel"
+                  otherButtonTitles:@"OK",nil];
+
+
+    [alert show];
+ }
 
 @end
