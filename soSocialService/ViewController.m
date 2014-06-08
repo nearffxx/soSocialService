@@ -120,8 +120,8 @@
     query.tokenTw1 = self.tTokenTW1.text;
     query.tokenTw2 = self.tTokenTW2.text;
     [service executeQuery:query completionHandler:^(GTLServiceTicket *ticket, id object, NSError *error) {}];
-     UIAlertView *alert = [[UIAlertView alloc]initWithTitle: @"Message Status"
-                  message: @"Message Sent"
+     UIAlertView *alert = [[UIAlertView alloc]initWithTitle: @"Message Status:"
+                  message: @"Sent:"
                   delegate: self
                   cancelButtonTitle:@"Cancel"
                   otherButtonTitles:@"OK",nil];
